@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@100;200;300;400;600;700&display=swap');
 :root {
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 *{
     margin: 0;
@@ -152,4 +155,9 @@ img{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
-/* 1H */
+
+/* Cloud */
+.cloud .grid{
+    grid-template-columns: 4fr, 3fr;
+}
+/* 1H7M */
